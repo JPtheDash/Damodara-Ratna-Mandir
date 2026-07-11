@@ -1,1 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damodara Ratna Mandir | Gems, Vastu & Yantras</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+        }
+    </style>
+</head>
+<body class="bg-amber-50 text-gray-800 font-sans antialiased">
 
+    <!-- Navbar -->
+    <nav class="bg-stone-900 text-amber-100 sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-3">
+                    <img src="drm logo.jpg" alt="DRM Logo" class="h-12 w-12 object-contain bg-amber-100 rounded-full p-1">
+                    <div>
+                        <span class="text-xl font-bold tracking-wide block text-amber-400">Damodara Ratna Mandir</span>
+                        <span class="text-xs uppercase tracking-widest block text-stone-400">Gems • Vastu • Yantras</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="#home" class="hover:text-amber-400 transition">Home</a>
+                    <a href="#catalog" class="hover:text-amber-400 transition">Catalog</a>
+                    <a href="#about" class="hover:text-amber-400 transition">About Us</a>
+                    <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="p-2 hover:text-amber-400 transition"><i class="fas fa-search text-lg"></i></button>
+                    <button class="p-2 hover:text-amber-400 transition relative">
+                        <i class="fas fa-shopping-bag text-lg"></i>
+                        <span class="absolute top-0 right-0 bg-amber-500 text-stone-900 text-xs w-4 h-4 rounded-full flex items-center justify-center font-bold">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-bg h-[70vh] flex items-center justify-center text-center px-4">
+        <div class="max-w-3xl">
+            <h1 class="text-4xl md:text-6xl font-serif text-amber-400 mb-4 font-bold">Divine Energy & Precious Elements</h1>
+            <p class="text-lg md:text-xl text-stone-200 mb-8">Discover certified gemstones, authentic Vastu correctors, and sacred energized Yantras curated for alignment and prosperity.</p>
+            <a href="#catalog" class="bg-amber-500 hover:bg-amber-600 text-stone-950 font-semibold px-8 py-3 rounded shadow-lg transition uppercase tracking-wider">Explore Collection</a>
+        </div>
+    </header>
+
+    <!-- Categories Grid -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-serif font-bold text-stone-900">Shop by Category</h2>
+            <div class="h-1 w-20 bg-amber-500 mx-auto mt-2"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Category 1 -->
+            <div class="relative overflow-hidden group rounded shadow-lg h-80">
+                <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=600&q=80" alt="Gems" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent opacity-90 flex flex-col justify-end p-6">
+                    <h3 class="text-xl font-bold text-amber-400">Certified Gemstones</h3>
+                    <p class="text-stone-300 text-sm mb-3">Natural Navratna and astrological stones.</p>
+                    <a href="#catalog" class="text-white text-sm font-semibold underline decoration-amber-500 underline-offset-4">View Items</a>
+                </div>
+            </div>
+            <!-- Category 2 -->
+            <div class="relative overflow-hidden group rounded shadow-lg h-80">
+                <img src="https://images.unsplash.com/photo-1603006905393-c9713d3c0d92?auto=format&fit=crop&w=600&q=80" alt="Vastu" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent opacity-90 flex flex-col justify-end p-6">
+                    <h3 class="text-xl font-bold text-amber-400">Vastu Elements</h3>
+                    <p class="text-stone-300 text-sm mb-3">Pyramids, crystals, and home harmonizers.</p>
+                    <a href="#catalog" class="text-white text-sm font-semibold underline decoration-amber-500 underline-offset-4">View Items</a>
+                </div>
+            </div>
+            <!-- Category 3 -->
+            <div class="relative overflow-hidden group rounded shadow-lg h-80">
+                <img src="https://images.unsplash.com/photo-1609137144813-2dbe4889ed54?auto=format&fit=crop&w=600&q=80" alt="Yantras" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent opacity-90 flex flex-col justify-end p-6">
+                    <h3 class="text-xl font-bold text-amber-400">Sacred Yantras</h3>
+                    <p class="text-stone-300 text-sm mb-3">Copper and silver etched geometric diagrams.</p>
+                    <a href="#catalog" class="text-white text-sm font-semibold underline decoration-amber-500 underline-offset-4">View Items</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Catalog -->
+    <section id="catalog" class="bg-stone-100 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-serif font-bold text-stone-900">Featured Catalog</h2>
+                <div class="h-1 w-20 bg-amber-500 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Item 1 -->
+                <div class="bg-white rounded shadow hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="h-56 bg-stone-200 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=400&q=80" alt="Blue Sapphire" class="w-full h-full object-cover">
+                            <span class="absolute top-2 right-2 bg-amber-500 text-stone-900 text-xs font-bold px-2 py-1 rounded">Certified</span>
+                        </div>
+                        <div class="p-4">
+                            <span class="text-xs text-amber-600 font-bold uppercase tracking-wider">Gemstone</span>
+                            <h3 class="text-lg font-bold text-stone-900 mt-1">Natural Blue Sapphire (Neelam)</h3>
+                            <p class="text-stone-600 text-sm mt-1">Premium 4.2 Carat Sri Lankan origin stone.</p>
+                        </div>
+                    </div>
+                    <div class="p-4 pt-0 flex justify-between items-center">
+                        <span class="text-xl font-bold text-stone-900">₹45,000</span>
+                        <button class="bg-stone-900 hover:bg-stone-800 text-white px-3 py-2 rounded text-sm transition"><i class="fas fa-shopping-cart mr-2"></i>Add</button>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="bg-white rounded shadow hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="h-56 bg-stone-200 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1535262412227-85541e918204?auto=format&fit=crop&w=400&q=80" alt="Shree Yantra" class="w-full h-full object-cover">
+                            <span class="absolute top-2 right-2 bg-stone-900 text-amber-400 text-xs font-bold px-2 py-1 rounded">Energized</span>
+                        </div>
+                        <div class="p-4">
+                            <span class="text-xs text-amber-600 font-bold uppercase tracking-wider">Yantra</span>
+                            <h3 class="text-lg font-bold text-stone-900 mt-1">Maha Meru Shree Yantra</h3>
+                            <p class="text-stone-600 text-sm mt-1">Pure brass 3D geometric grid for wealth.</p>
+                        </div>
+                    </div>
+                    <div class="p-4 pt-0 flex justify-between items-center">
+                        <span class="text-xl font-bold text-stone-900">₹8,500</span>
+                        <button class="bg-stone-900 hover:bg-stone-800 text-white px-3 py-2 rounded text-sm transition"><i class="fas fa-shopping-cart mr-2"></i>Add</button>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="bg-white rounded shadow hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="h-56 bg-stone-200 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=400&q=80" alt="Vastu Tortoise" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-4">
+                            <span class="text-xs text-amber-600 font-bold uppercase tracking-wider">Vastu</span>
+                            <h3 class="text-lg font-bold text-stone-900 mt-1">Panchdhatu Vastu Tortoise</h3>
+                            <p class="text-stone-600 text-sm mt-1">With glass plate mechanism for stability.</p>
+                        </div>
+                    </div>
+                    <div class="p-4 pt-0 flex justify-between items-center">
+                        <span class="text-xl font-bold text-stone-900">₹2,400</span>
+                        <button class="bg-stone-900 hover:bg-stone-800 text-white px-3 py-2 rounded text-sm transition"><i class="fas fa-shopping-cart mr-2"></i>Add</button>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="bg-white rounded shadow hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="h-56 bg-stone-200 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=400&q=80" alt="Ruby" class="w-full h-full object-cover">
+                            <span class="absolute top-2 right-2 bg-amber-500 text-stone-900 text-xs font-bold px-2 py-1 rounded">Certified</span>
+                        </div>
+                        <div class="p-4">
+                            <span class="text-xs text-amber-600 font-bold uppercase tracking-wider">Gemstone</span>
+                            <h3 class="text-lg font-bold text-stone-900 mt-1">Natural Ruby (Manik)</h3>
+                            <p class="text-stone-600 text-sm mt-1">Unheated 3.5 Carat vivid red Burma Ruby.</p>
+                        </div>
+                    </div>
+                    <div class="p-4 pt-0 flex justify-between items-center">
+                        <span class="text-xl font-bold text-stone-900">₹62,000</span>
+                        <button class="bg-stone-900 hover:bg-stone-800 text-white px-3 py-2 rounded text-sm transition"><i class="fas fa-shopping-cart mr-2"></i>Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+            <span class="text-xs text-amber-600 font-bold uppercase tracking-widest block mb-2">Our Legacy</span>
+            <h2 class="text-3xl font-serif font-bold text-stone-900 mb-4">Purity & Precision Since 1998</h2>
+            <p class="text-stone-700 mb-4 leading-relaxed">Damodara Ratna Mandir provides authentic Vedic remedies. Every gemstone passes rigorous laboratory certification tests, and our ritual elements undergo proper Vedic energization (Prana Pratishtha) before dispatch.</p>
+            <div class="grid grid-cols-2 gap-4 mt-6">
+                <div class="border-l-4 border-amber-500 pl-3">
+                    <span class="block text-2xl font-bold text-stone-900">100%</span>
+                    <span class="text-xs uppercase text-stone-500">Lab Certified Gems</span>
+                </div>
+                <div class="border-l-4 border-amber-500 pl-3">
+                    <span class="block text-2xl font-bold text-stone-900">Vedic</span>
+                    <span class="text-xs uppercase text-stone-500">Energized Items</span>
+                </div>
+            </div>
+        </div>
+        <div class="h-96 rounded overflow-hidden shadow-xl">
+            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80" alt="Mandir workshop" class="w-full h-full object-cover">
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-stone-900 text-stone-300 pt-12 pb-6 border-t border-stone-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div>
+                <div class="flex items-center gap-3 mb-4">
+                    <img src="drm logo.jpg" alt="DRM Logo" class="h-10 w-10 object-contain bg-amber-100 rounded-full p-1">
+                    <span class="text-lg font-bold text-amber-400 tracking-wide">Damodara Ratna Mandir</span>
+                </div>
+                <p class="text-sm text-stone-400">Authentic spiritual tools, cosmic remedies, and fine astrological investments.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4 uppercase text-xs tracking-wider">Quick Contact</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><i class="fas fa-map-marker-alt text-amber-400 mr-2"></i> 108 Vedic Enclave, Crystal Market, India</li>
+                    <li><i class="fas fa-phone text-amber-400 mr-2"></i> +91 98765 43210</li>
+                    <li><i class="fas fa-envelope text-amber-400 mr-2"></i> support@damodaratnamandir.com</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4 uppercase text-xs tracking-wider">Newsletter</h4>
+                <p class="text-sm text-stone-400 mb-3">Subscribe for astrological insights and stock updates.</p>
+                <form class="flex">
+                    <input type="email" placeholder="Your email" class="bg-stone-800 text-white text-sm px-3 py-2 rounded-l w-full focus:outline-none focus:ring-1 focus:ring-amber-500">
+                    <button type="submit" class="bg-amber-500 hover:bg-amber-600 text-stone-950 font-semibold px-4 rounded-r text-sm">Join</button>
+                </form>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-stone-800 pt-6 text-center text-xs text-stone-500">
+            <p>&copy; 2026 Damodara Ratna Mandir. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
